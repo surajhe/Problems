@@ -30,13 +30,13 @@ int main()
         {
             if(arr[i] == arr[j])
             {
-                cout << "index = " << j << endl;
-                cout << "first repeated number is :" << arr[j] << " " << endl;
-                break;
+                cout << "repeated number index = " << j << endl;
+                cout << "repeated number is :" << arr[j] << " " << endl;
+                goto end;
             }
             
         }
     }
-
+    end:
     return 0;
 }
