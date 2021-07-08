@@ -37,7 +37,7 @@ int main()
             
         }
     }
+  cout << "No number is repeated in array" << endl;
     end:
-    cout << "No number is repeated in array" << endl;
     return 0;
 }
